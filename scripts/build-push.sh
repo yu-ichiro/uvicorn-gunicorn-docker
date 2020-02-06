@@ -2,7 +2,7 @@
 
 set -e
 
-use_tag="tiangolo/uvicorn-gunicorn:$NAME"
+use_tag="yuichiroluke/uvicorn-gunicorn:$NAME"
 [[ "$(uname -s)" != "Darwin" ]]&&use_dated_tag="${use_tag}-$(date -I)"
 [[ "$(uname -s)" == "Darwin" ]]&&use_dated_tag="${use_tag}-$(date +%F)"
 

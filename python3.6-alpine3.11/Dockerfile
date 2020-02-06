@@ -1,6 +1,6 @@
 FROM python:3.6-alpine3.11
 
-LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
+LABEL maintainer="Yuichiro Smith <contact@yu-smith.com>"
 
 RUN apk add --no-cache --virtual .build-deps gcc libc-dev make \
     && pip install uvicorn gunicorn \

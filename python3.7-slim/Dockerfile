@@ -1,6 +1,6 @@
 FROM python:3.7-slim
 
-LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
+LABEL maintainer="Yuichiro Smith <contact@yu-smith.com>"
 
 RUN apt-get update && apt-get install -y gcc
 

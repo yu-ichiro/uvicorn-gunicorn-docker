@@ -5,4 +5,5 @@ set -x
 
 bash scripts/build-push-all.sh
 
-bash scripts/trigger-children.sh
+# disabling auto-pr
+# bash scripts/trigger-children.sh

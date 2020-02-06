@@ -1,3 +1,3 @@
-FROM tiangolo/uvicorn-gunicorn:latest
+FROM yuichiroluke/uvicorn-gunicorn:latest
 
 COPY ./app /app

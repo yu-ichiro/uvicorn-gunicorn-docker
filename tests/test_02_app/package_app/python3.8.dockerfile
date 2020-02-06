@@ -1,3 +1,3 @@
-FROM tiangolo/uvicorn-gunicorn:python3.8
+FROM yuichiroluke/uvicorn-gunicorn:python3.8
 
 COPY ./app /app
