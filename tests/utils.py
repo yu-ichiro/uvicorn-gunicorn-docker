@@ -8,7 +8,7 @@ IMAGE_NAME = "uvicorn-gunicorn-testimage"
 
 def get_process_names(container):
     top = container.top()
-    process_commands = [p[7] for p in top["Processes"]]
+    process_commands = [p[3] for p in top["Processes"]]
     gunicorn_processes = [p for p in process_commands if "gunicorn" in p]
     return gunicorn_processes
 
